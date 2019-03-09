@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AssinaturaComponent } from './assinatura/assinatura.component';
+import { TabuadaComponent } from './tabuada/tabuada.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AssinaturaComponent
+    AssinaturaComponent,
+    TabuadaComponent
   ],
   imports: [
     BrowserModule,
