@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AssinaturaComponent } from './assinatura/assinatura.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AssinaturaComponent
   ],
   imports: [
     BrowserModule,
